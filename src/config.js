@@ -5,7 +5,7 @@ const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
 const { MODE } = require(path.join(basePath, "src/blendMode.js"));
 const description = "WumiDev's PolyAliens NFT collection.";
-const baseUri = "ipfs://UPDATE";
+const baseUri = "ipfs://QmRw8HuRK4hS4uhd9ft3rofc9Yq8Q38LjKiSNBDPyns151";
 
 const layerConfigurations = [
   {
